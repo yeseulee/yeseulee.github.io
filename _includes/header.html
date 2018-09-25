@@ -14,9 +14,9 @@
     <ul class="search__results" id="results-container"></ul>
 
     <ul id="menu" class="nav">
-        <li class="{% if page.url != '/about/' and page.url != '/openapi/' and page.url != '/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
-        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/opensource/">About</a></li>
-        <li class="{% if page.url == '/' %} active {% endif %}"><a href="{{ base_path }}/">Home</a></li>
+        <li class="{% if page.url != '/about/' and page.url != '/' %} active {% endif %}"><a href="{{ base_path }}/">blog</a></li>
+        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">about</a></li>
+        <li class="{% if page.url == '/' %} active {% endif %}"><a href="{{ base_path }}/">home</a></li>
     </ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
